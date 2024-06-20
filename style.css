@@ -1,0 +1,68 @@
+section {
+    background-color: #fcffe0;
+}
+
+.d-block {
+    border-radius: 50%; 
+}
+
+.bi {
+    vertical-align: -.125em;
+}
+
+.me-2 {
+    margin-right: .5rem !important;
+}
+
+.flex-container {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item:hover, .nav-link:hover {
+    text-decoration: wavy;
+    color: purple;
+}
+
+.image {
+    border: 5px solid #555;
+}
+
+.carousel-caption {
+    background-color: rgba(128, 128, 128, 0.508);
+    opacity: 10%;
+    padding: 50px;
+}
+
+.start:hover {
+    background-color: darkred;
+    opacity: 80%;
+}
+
+.middle:hover {
+    background-color: #005089;
+    opacity: 90%;
+}
+
+.end:hover {
+    background-color: #AE7198;
+    opacity: 95%;
+}
+
+.btn-info {
+    color: #FFACAC;
+}
+
+.teal {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 100px;
+}
+
+.teal:hover {
+    color: darkred;
+    margin-top: 20px;
+    text-decoration: underline;
+}

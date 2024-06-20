@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Readers' Preference Survey Form</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Readers' Preference Survey Form</h1>
+      <p>Thank You for taking the survey. Your valuable insights will greatly help us to improve our platform.</p>
+      <form action="" id="survey-form">
+
+        <fieldset>
+          <label for="name">Your Name:
+            <input id="name" name="your-name" type="text" placeholder="e.g. Tom Riddle" required />
+          </label>
+          <label for="email">Your Email:
+            <input id="email" name="email" type="email" placeholder="e.g. tmriddle@gmail.com" required />
+          </label>
+          <label for="age">Age:
+            <input id="age" name="age" type="number" min="13" max="120">
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <p>Which of the followings is your favoutite format of book?</p>
+          <select id="dropdown">
+            <option id="dropdown" name="0">
+                (Please Select One)
+            </option>
+            <option id="dropdown" name="1">
+                Hardcover
+            </option>
+            <option id="dropdown" name="2">
+                Paperback
+            </option>
+            <option id="dropdown" name="3">
+                Digital Book
+            </option>
+            <option id="dropdown" name="4">
+                Graphical Illustration
+            </option>
+          </select>
+
+          <p>Which genres do you like? (Check all that apply)</p>
+          <input type="checkbox" id="adventure" name="adventure" />
+          <label for="adventure" class="box">Adventure</label>
+          <input type="checkbox" id="fantasy" name="fantasy" />
+          <label for="fantasy" class="box">Fantasy</label>
+          <input type="checkbox" id="graphic-novels" name="graphic-novels" />
+          <label for="graphic-novels" class="box">Graphic Novels</label>
+          <input type="checkbox" id="romance" name="romance" />
+          <label for="romance" class="box">Romance</label>
+          <input type="checkbox" id="thriller" name="thriller" />
+          <label for="thriller" class="box">Thriller</label>
+        </fieldset>
+
+        <fieldset>
+          <p>Where did you hear about us?</p>
+          <input type="radio" id="search" name="source"/>
+          <label for="search">Search Engine</label>
+          <input type="radio" id="social" name="source"/>
+          <label for="social">Social Media</label>
+          <input type="radio" id="stream" name="source"/>
+          <label for="stream">Streaming Service Ad</label>
+          <input type="radio" id="word" name="source"/>
+          <label for="word">Word of Mouth</label>
+          <input type="radio" id="referral" name="source"/>
+          <label for="referral">Referral</label>
+          <input type="radio" id="other" name="source"/>
+          <label for="other">Other</label>
+
+          <p>Would you like to share any suggestions?</p>
+          <textarea id="suggestions" name="suggestions" rows="5" cols="50"></textarea>
+        </fieldset>
+        <input type="submit" class="submit"/>
+      </form>
+    </div>
+  </body>
+  <footer></footer>
+</html>

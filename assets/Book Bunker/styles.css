@@ -1,0 +1,29 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1481627834876-b7833e8f5570?q=80&w=1856&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    color: white;
+    margin: 0;
+}
+  
+div {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 50%;
+    margin: 30px auto;
+    padding: 20px;
+}
+  
+h1 {
+    text-align: center;
+}
+  
+.submit {
+    margin-top: 10px ;
+    margin-left: 50%;
+    border-color: black;
+    border-radius: 3rem;
+    padding: 5px 30px;
+}
+
+.submit:hover {
+    color: darkred;
+    
+}
